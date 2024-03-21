@@ -10,7 +10,10 @@
     left: 0px;
     width: 29vw;
     height: 100vh;
-    background-color: #F4E4DB;
+    /* background-color: #F4E4DB; */
+    background-image: url('https://i.ibb.co/Np7gZgh/sai-abhinivesh-burla-WEv76-Kg-Eysk-unsplash.png');
+    background-size: cover;
+    overflow: hidden;
     justify-content: center;
 }
 
@@ -20,7 +23,10 @@
     right: 0px;
     width: 29vw;
     height: 100vh;
-    background-color: #F4E4DB;
+    background-image: url('https://i.ibb.co/Hq4XxQW/sai-abhinivesh-burla-WEv76-Kg-Eysk-unsplash.png');
+    background-size: cover;
+    overflow: hidden;
+    /* background-color: #F4E4DB; */
     /* justify-content: center; */
 }
 
@@ -214,6 +220,7 @@
     /* padding: 20px; */
     background-color: white;
     /* overflow: hidden; */
+    z-index: 1;
 }
 
 .top_title {
@@ -578,7 +585,7 @@
 
 .line_btn:hover {
     background-color: #1ade76;
-    color: brown;
+    color: rgb(0, 0, 0);
 }
 
 .line_image {
@@ -681,6 +688,51 @@
     
     .product_title {
         margin-left: 120px;
+    }
+
+    .sp_text {
+        display: none !important;
+        flex-direction: row !important;
+    }
+
+    .product_package2 {
+        left: 440px;
+    }
+
+    .image_1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .image_2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .image_3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .sp_first {
+        width: 100%;
+    }
+
+    .sp_navbar {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .sp_package {
+        margin: 50px 0 0 45px;
+    }
+
+    .sp_tag {
+        align-self: center
+    }
+
+    .sp_item {
+        margin: 10px;
     }
 }
 
@@ -826,7 +878,100 @@
     }
 }
 
+
+
+@media only screen and (max-width: 400px) {
+    .sp_line_btn2 {
+        width: 320px;
+        left: 88% !important;
+    }
+
+    .sp_package {
+        width: 320px;
+
+    }
+
+    .product_package2 {
+        top: -40px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .product_package2 {
+        left: 25%;
+    }
+
+    .sp_product_image {
+        width: 200px;
+        height: auto;
+    }
+
+    .sns_icon {
+        width: 50px;
+        height: 50px;
+        margin: 30px 5px;
+    }
+
+    .sp_line_btn2 {
+        width: 260px !important;
+        left: 95% !important;
+    }
+
+    .sp_close {
+        position: relative;
+        left: 80px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .sp_package {
+        width: 200px;
+    }
+
+    .sp_first_circle {
+        flex-direction: column;
+        align-items: center;
+        /* margin-bottom: 10px; */
+    }
+
+    .circle{
+        margin: 5px !important;
+    }
+
+    .package {
+        display: none;
+    }
+
+    .sp_chart {
+        width: 200px;
+        height: auto;
+    }
+
+    .price {
+        margin: 0;
+        text-align: center;
+    }
+
+    .sp_menu {
+        position: relative;
+        left: 80px !important;
+    }
+}
+
 @media only screen and (max-width: 450px) {
+    .circle {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .circle {
+        margin: 0;
+    }
+    
     .sp_line_btn2 {
         left: 55%;
     }
@@ -851,6 +996,8 @@
     .sp_product {
         margin: 0;
     }
+
+    
 
 }
   
