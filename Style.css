@@ -765,6 +765,7 @@
     }
 
     .swiper {
+        width: 100vw;
         overflow: hidden;
     }
 
@@ -783,7 +784,7 @@
         position: fixed;
         bottom: 30px;
         transform: translateX(-99%);
-        left: 57%;
+        left:90%;
     }
 
     .sp_blog {
@@ -835,12 +836,16 @@
     }
 
     .sp_line_btn2 {
-        left: 50%;
+        left: 97%;
     }
 
     .product_title {
         margin-left: 72px;
         margin-top: 0;
+    }
+
+    .swiper-slide {
+        width: 300px !important;
     }
 
     .sp_product {
