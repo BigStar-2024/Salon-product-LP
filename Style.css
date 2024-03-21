@@ -1,0 +1,663 @@
+.main {
+    background-color: #F4E4DB;
+    width: 100vw;
+    height: auto;
+}
+
+.menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 29vw;
+    height: 100vh;
+    background-color: #F4E4DB;
+    justify-content: center;
+}
+
+.line {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 29vw;
+    height: 100vh;
+    background-color: #F4E4DB;
+    /* justify-content: center; */
+}
+
+.swiper {
+    width: 800px;
+    height: 400px;
+}
+
+/* ------------------------------Menu-------------------------------- */
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 33px;
+    top: 33px;
+}
+
+.logo2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 33px;
+    top: 33px;
+    visibility: hidden;
+}
+
+.logo3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 33px;
+    top: 33px;
+    /* visibility: hidden; */
+}
+
+.sp_menu {
+    width: 50px;
+    height: 33px;
+    position: relative;
+    left: 75%;
+    top: 33px;
+    visibility: hidden;
+    padding: 0;
+    border: none;
+}
+
+.sp_close {
+    width: 50px;
+    height: 33px;
+    position: relative;
+    left: 75%;
+    top: 33px;
+    /* visibility: hidden; */
+    padding: 0;
+    border: none;
+}
+
+.sp-close {
+    width: 50px;
+    height: 50px;
+}
+
+.sp_first {
+    background-image: url('https://i.ibb.co/M9cH3ty/Group-48.png');
+    width: 42vw;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+.sp_package {
+    width: 380px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+
+.sp_navbar {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 120px;
+    /* align-self: center; */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.snsshare {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.sp_circle {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    /* Red color, you can change it */
+    border: black 1px solid;
+    border-radius: 50%;
+    /* Makes the element a circle */
+    margin: 10px 5px;
+}
+
+.sp_line_btn {
+    font-size: 18px;
+    padding: 10px 80px;
+    margin-top: 100px;
+    border-radius: 45px;
+    border: none;
+    background-color: #55C90B;
+    color: white;
+    border-style: outset;
+}
+
+.sp_line_btn2 {
+    font-size: 18px;
+    padding: 10px 130px;
+    border-radius: 45px;
+    border: none;
+    background-color: #55C90B;
+    color: white;
+    border-style: outset;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    display: none;
+}
+
+.sp_line_btn:hover {
+    background-color: #1ade76;
+    color: brown;
+}
+
+.sp_copyright {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    padding: 50px;
+}
+
+.sp_text {
+    display: none !important;
+    text-align: center;
+}
+
+.sp_text1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.sp_text2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.navbar {
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item {
+    text-decoration: none;
+    color: #3B3B3B;
+    margin: 26px 0px;
+}
+
+.item:hover {
+    color: rgb(161, 31, 5);
+}
+
+/* -----------------------------Content------------------------------- */
+
+.content {
+    width: 42vw;
+    height: auto;
+    /* border: #F4E4DB 1px solid; */
+    box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
+    /* padding: 20px; */
+    background-color: white;
+    /* overflow: hidden; */
+}
+
+.top_title {
+    padding: 50px 0 0;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.circle {
+    width: 145px;
+    height: 145px;
+    background-color: rgb(255, 255, 255);
+    /* Red color, you can change it */
+    border: black 1px solid;
+    border-radius: 50%;
+    /* Makes the element a circle */
+    margin: 10px 15px;
+    text-align: center;
+    z-index: 2;
+}
+
+.first_line {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.second_line {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.product_package {
+    float: right;
+    margin-left: 8vw;
+    margin-bottom: 100px;
+
+}
+
+/* ------------------second-------------- */
+.second_title {
+    margin: 50px 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product_package2 {
+    position: relative;
+    top: -60px;
+    left: 27vw;
+    width: auto;
+    height: 160px;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.rectangle {
+    border: solid 2px #3B3B3B;
+    border-radius: 20px;
+    margin: 0 50px;
+}
+
+.rectangle_title {
+    font-size: 28px;
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.rectangle_text {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 25px;
+}
+
+/* -------------ABOUT-------------- */
+
+.about {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 100px 0 50px;
+}
+
+.image_1 {
+    background-image: url('https://i.ibb.co/St4yYVT/1b5d9ba0-2e02-4882-936c-ef74ba630458.png');
+    width: 42vw;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.about_image {
+    padding-top: 60px;
+}
+
+.about_title {
+    font-size: 44px;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+
+.about_text {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+.image_2 {
+    background-image: url('https://i.ibb.co/5s60YXP/olga-kudriavtseva-xw8ptt-N8-MBg-unsplash.png');
+    width: 42vw;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.tag {
+    margin: 0 25px;
+}
+
+.about_image2 {
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.image_3 {
+    background-image: url('https://i.ibb.co/T2T2HbN/jazmin-quaynor-8ioenvmof-I-unsplash.png');
+    width: 42vw;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.about_text2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 30px;
+}
+
+.about_1 {
+    background-color: #F4EBE6;
+}
+
+.about_1_title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about_1_text {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about_1_between1 {
+    width: 100%;
+    height: auto;
+    padding: 0 60px 0 80px;
+    margin-top: 70px;
+}
+
+.about_1_between2 {
+    width: 100%;
+    height: auto;
+    padding: 0 60px 0 80px;
+    margin: 40px 0 70px;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FA6B6B;
+    margin-right: 30px;
+}
+
+.about_1_title2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.remie_image {
+    margin-right: 50px ;
+    margin-left: 50px;
+}
+
+.remie_title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.remie_text {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.meal_title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.egg {
+    width: 200px;
+    height: 200px;
+}
+
+.egg_title {
+    font-size:  29px;
+    font-weight: bold;
+}
+
+.egg_weight {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.beauty_powder {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* -----------------------------PRODUCT-------------------- */
+
+.product_head {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.product_title {
+    font-size: 36px;
+    font-weight: bold;
+    /* padding: 0 50px; */
+    margin-left: 2vw;
+    
+    /* margin-right: 2vw; */
+    margin-top: 20px;
+    /* border: solid black 1px; */
+}
+
+.product_bottom {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.product_image {
+    margin-left: 2vw;
+}
+
+
+/* ------------------------RECIEP------------------------- */
+
+.reciep_head{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.reciep_title {
+    font-size: 36px;
+    font-weight: bold; 
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.blog_title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog_bottom {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 30px 70px 140px 90px;
+}
+
+/* ----------------------FOOTER----------------------- */
+
+.footer {
+    background-color: #F0F0F0;
+    width: auto;
+    height: 756px;
+
+}
+
+.page_top {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 5px;
+}
+
+.page_top_a {
+    text-decoration: none;
+    color: #3B3B3B;
+}
+
+.btn {
+    margin: 80px 0 0;
+}
+
+.copyright {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 150px;
+}
+
+.remie_footer {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 80px 0;
+}
+
+.sns {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.check {
+    background-color: white;
+    padding: 30px 10vw;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+
+/* --------------------------------Line---------------------- */
+.line_btn {
+    font-size: 18px;
+    padding: 10px 80px;
+    border-radius: 45px;
+    border: none;
+    background-color: #55C90B;
+    color: white;
+    border-style: outset;
+}
+
+.line_btn:hover {
+    background-color: #1ade76;
+    color: brown;
+}
+
+.line_image {
+    width: 250px;
+    height: 320px;
+    margin: 40px;
+}
+
+.copyright1 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1750px) {
+    .re_price {
+        flex-direction: column;
+    }
+
+    .about_1_title2 {
+        font-size: 22px;
+    }
+}
+
+
+@media only screen and (max-width: 1700px) {
+    .menu, .line {
+        visibility: hidden;
+    }
+
+    .first_page {
+        
+        background-color: #EFEFEF;
+    }
+
+    .logo2, .sp_menu{
+        visibility: visible;
+    }
+
+    .product_package2 {
+        position: relative;
+        top: -60px;
+        left: 24vw;
+        width: auto;
+        height: 160px;
+        z-index: 1;
+        margin-bottom: 30px;
+    }
+
+    .content {
+        width: 800px;
+    }
+
+    .image_1, .image_2, .image_3 {
+        width: 800px;
+    }
+
+    .product_package2 {
+        left: 500px;
+    }
+
+    .check {
+        padding: 30px 200px;
+    }
+
+    .product_package {
+        margin-left: 150px;
+    }
+
+    .sp_first{
+        width: 800px;
+    }
+    
+    .sp_line_btn2{
+        display: block;
+    }
+
+    .sp_text {
+        display: block !important;
+    }
+
+}
+  
