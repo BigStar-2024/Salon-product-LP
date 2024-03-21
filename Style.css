@@ -140,7 +140,9 @@
 
 .sp_line_btn2 {
     font-size: 18px;
-    padding: 10px 130px;
+    /* padding: 10px 130px; */
+    width: 400px;
+    height: 50px;
     border-radius: 45px;
     border: none;
     background-color: #55C90B;
@@ -167,6 +169,7 @@
 }
 
 .sp_text {
+    flex-direction: column;
     display: none !important;
     text-align: center;
 }
@@ -461,9 +464,9 @@
 
 .product_title {
     font-size: 36px;
-    font-weight: bold;
+    /* font-weight: bold; */
     /* padding: 0 50px; */
-    margin-left: 2vw;
+    margin-left: 5vw;
     
     /* margin-right: 2vw; */
     margin-top: 20px;
@@ -472,7 +475,7 @@
 
 .product_bottom {
     font-size: 36px;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-align: center;
     margin-bottom: 200px;
 }
@@ -482,16 +485,16 @@
 }
 
 
-/* ------------------------RECIEP------------------------- */
+/* ------------------------RECIPE------------------------- */
 
-.reciep_head{
+.recipe_head{
     font-size: 40px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 70px;
 }
 
-.reciep_title {
+.recipe_title {
     font-size: 36px;
     font-weight: bold; 
     text-align: center;
@@ -516,7 +519,7 @@
 .footer {
     background-color: #F0F0F0;
     width: auto;
-    height: 756px;
+    height: auto;
 
 }
 
@@ -538,13 +541,13 @@
 .copyright {
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .remie_footer {
     font-size: 38px;
     font-weight: bold;
-    margin: 80px 0;
+    margin: 60px 0 30px;
 }
 
 .sns {
@@ -558,7 +561,7 @@
     padding: 30px 10vw;
     font-size: 36px;
     font-weight: 400;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 
@@ -592,6 +595,13 @@
     font-weight: 400;
 }
 
+.sns_icon {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin: 30px 20px;
+}
+
 @media only screen and (max-width: 1750px) {
     .re_price {
         flex-direction: column;
@@ -605,7 +615,9 @@
 
 @media only screen and (max-width: 1700px) {
     .menu, .line {
-        visibility: hidden;
+        width: 0px;
+        /* visibility: hidden; */
+        display: none !important;
     }
 
     .first_page {
@@ -657,6 +669,182 @@
 
     .sp_text {
         display: block !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    .content {
+        width: 100vw;
+    }
+    
+    .product_title {
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .sp_text_flex {
+        flex-direction: column;
+    }
+
+    .sp_text {
+        display: none !important;
+        flex-direction: row !important;
+    }
+
+    .package {
+        width: 80%;
+        height: auto;
+    }
+
+    .product_package2 {
+        left: 70%;
+    }
+/* 
+    .about_image{
+        flex-direction: column;
+    } */
+
+    .image_1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .image_2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .image_3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .about_text {
+        padding-bottom: 20px;
+    }
+
+    .about_image2 {
+        /* display: flex; */
+        float: none;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-right: 0;
+        padding-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .sp_about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_text2 {
+        margin: 0 !important;
+
+    }
+    
+    .about_1_title2 {
+        margin: 10px;
+    }
+
+    .about_1_between1 {
+        padding: 0 20px;
+    }
+
+    .about_1_between2 {
+        padding: 0 20px;
+    }
+
+    .sp_remie_image {
+        flex-direction: column;
+    }
+
+    .swiper {
+        overflow: hidden;
+    }
+
+    .sp_beauty_powder {
+        width: 90%;
+        height: auto;
+    }
+
+    .sp_product {
+        flex-direction: column;
+        padding-top: 0;
+        margin-left: 0
+    }
+
+    .sp_line_btn2 {
+        position: fixed;
+        bottom: 30px;
+        transform: translateX(-99%);
+        left: 57%;
+    }
+
+    .sp_blog {
+        width: 80%;
+        height: auto;
+    }
+
+    .blog_bottom {
+        margin: 20px
+    }
+
+    .sp_menu {
+        left: 55% !important;
+    }
+
+    .sp_first {
+        width: 100%;
+    }
+
+    .sp_navbar {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .sp_package {
+        margin: 50px 0 0 45px;
+    }
+
+    .sp_tag {
+        align-self: center
+    }
+
+    .sp_item {
+        margin: 10px;
+    }
+
+    .sp_close {
+        left: 55%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .sp_line_btn2 {
+        left: 55%;
+    }
+
+    .sp_package {
+        margin-left: 18px;
+    }
+
+    .sp_line_btn2 {
+        left: 50%;
+    }
+
+    .product_title {
+        margin-left: 72px;
+        margin-top: 0;
+    }
+
+    .sp_product {
+        margin: 0;
     }
 
 }
