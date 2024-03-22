@@ -51,7 +51,7 @@ var swiper = new Swiper(".mySwiper", {
   spaceBetween: 10,
   loop: true, // Enable loop mode to make the images flow continuously
   autoplay: {
-    delay: 3000, // Set the delay between slides in milliseconds
+    delay: 1000, // Set the delay between slides in milliseconds
     disableOnInteraction: false, // Enable autoplay even after user interactions
   },
   pagination: {
