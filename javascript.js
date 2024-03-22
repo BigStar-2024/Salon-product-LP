@@ -37,11 +37,25 @@ document.getElementById('sp_close').addEventListener('click', function () {
 });
 
 
+// var swiper = new Swiper(".mySwiper", {
+//     slidesPerView: 2,
+//     spaceBetween: 30,
+//     pagination: {
+//       el: ".swiper-pagination",
+//       clickable: true,
+//     },
+//   });
+
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 2,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+  slidesPerView: 3,
+  spaceBetween: 10,
+  loop: true, // Enable loop mode to make the images flow continuously
+  autoplay: {
+    delay: 3000, // Set the delay between slides in milliseconds
+    disableOnInteraction: false, // Enable autoplay even after user interactions
+  },
+  pagination: {
+    el: ".swiper-pagination", // Add pagination bullets
+    clickable: true, // Allow clicking on pagination bullets to navigate
+  },
+});
